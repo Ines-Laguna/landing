@@ -1,0 +1,64 @@
+
+body {
+    font-family:, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:FFFFFF;
+    background-color:img src="Photos oh my cream produits/banner.jpg";
+    background-image:url("Photos oh my cream produits/Fond.jpg");
+    }
+
+header {
+    font-family:font-family: "Lora", serif; dimensionnement optique de police : auto ; poids-fonte : <poids> ; style de police : normal ;, sans-serif;
+    color: #black;
+    text-align: center;
+    padding: 5px;
+}
+
+header img {
+    max-width: 100%;
+    max-height: 70%;
+    margin-bottom: 5px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+a{
+    background-color:#FFF0F5 ;
+    color:grey;
+    font-size: 16px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.product {
+    background-color: #FFF0F5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+}
+.product h2{
+    margin-top: 10;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.product p{
+    margin-bottom: 0;
+}
+
+.product img {
+    border-radius: 10px;
+    max-width: 100%;
+    width: 220px;
+    height: 220px;
+
+}
